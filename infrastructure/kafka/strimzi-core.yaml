@@ -6,11 +6,11 @@ metadata:
 spec:
     project: default
     source:
-        chart: strimzi/strimzi-kafka-operator
+        chart: strimzi-kafka-operator
         repoURL: https://strimzi.io/charts/
         targetRevision: 0.34.0
         helm:
             releaseName: strimzi-core
     destination:
         server: "https://kubernetes.default.svc"
-        namespace: kubeseal
+        namespace: kafka-system
