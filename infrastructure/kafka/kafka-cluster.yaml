@@ -1,7 +1,7 @@
 apiVersion: kafka.strimzi.io/v1beta2
 kind: Kafka
 metadata:
-  name: kafka-cluster-local
+  name: kafka-cluster-private
 spec:
   kafka:
     version: 3.4.0
